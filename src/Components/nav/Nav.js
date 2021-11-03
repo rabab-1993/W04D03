@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {FaArrowCircleLeft } from "react-icons/fa";
+import {FaArrowCircleLeft, FaStar} from "react-icons/fa";
 import './style.css';
 
 const Nav = () => {
@@ -21,6 +21,7 @@ const Nav = () => {
          
           <li>Cards</li>
         </Link>
+          <Link to="/fav" className="fav"><FaStar /></Link>
       </ul>
     </div>
   );
